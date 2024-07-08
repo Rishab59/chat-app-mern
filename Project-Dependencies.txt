@@ -1,0 +1,12 @@
+npm create vite@latest
+
+npm install
+
+npm init -y
+
+npm install express dotenv cookie-parser bcryptjs mongoose socket.io jsonwebtoken
+
+npm install nodemon --save-dev
+
+// GENERATE SECRET WITH FOLLOWING COMMAND
+// openssl rand -base64 32
